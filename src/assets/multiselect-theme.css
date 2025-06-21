@@ -1,0 +1,71 @@
+/* multiselect-theme.css */
+
+/* Gaya dasar (light mode) */
+.multiselect {
+  background: #fff;
+  color: #35495e;
+  border: 1px solid #e8e8e8;
+}
+
+.multiselect__tags {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+}
+
+.multiselect__content-wrapper {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+}
+
+.multiselect__option {
+  background: #fff;
+  color: #35495e;
+}
+
+.multiselect__option--highlight {
+  background: #41b883;
+  color: #fff;
+}
+
+/* Dark mode */
+.dark-mode .multiselect {
+  background: #1e1e1e;
+  color: #f0f0f0;
+  border: 1px solid #444;
+}
+
+.dark-mode .multiselect__tags {
+  background: #1e1e1e;
+  border: 1px solid #444;
+  color: #f0f0f0;
+}
+
+.dark-mode .multiselect__input,
+.dark-mode .multiselect__single {
+  background: #1e1e1e;
+  color: #f0f0f0;
+}
+
+.dark-mode .multiselect__content-wrapper {
+  background: #1e1e1e;
+  border: 1px solid #444;
+}
+
+.dark-mode .multiselect__option {
+  background: #1e1e1e;
+  color: #f0f0f0;
+}
+
+.dark-mode .multiselect__option--highlight {
+  background: #41b883;
+  color: #fff;
+}
+
+.dark-mode .multiselect__placeholder {
+  color: #aaa;
+}
+
+.dark-mode .multiselect__tag {
+  background: #41b883;
+  color: #fff;
+}

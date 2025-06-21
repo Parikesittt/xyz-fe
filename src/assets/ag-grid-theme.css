@@ -1,0 +1,74 @@
+/* Custom ag-Grid theme to match CoreUI admin template */
+.ag-theme-coreui {
+  /* Core colors - match these with CoreUI theme colors */
+  --ag-background-color: var(--cui-body-bg, #fff);
+  --ag-foreground-color: var(--cui-body-color, #212529);
+  --ag-border-color: var(--cui-border-color, #d8dbe0);
+
+  /* Header styling */
+  --ag-header-background-color: var(--cui-primary, #321fdb);
+  --ag-header-foreground-color: var(--cui-white, #fff);
+  --ag-header-column-separator-color: rgba(255, 255, 255, 0.1);
+  --ag-header-column-separator-height: 80%;
+
+  /* Row styling */
+  --ag-row-hover-color: var(--cui-light, #ebedef);
+  --ag-row-border-color: var(--cui-border-color, #d8dbe0);
+  --ag-odd-row-background-color: var(--cui-light, #ebedef);
+
+  /* Cell styling */
+  --ag-cell-horizontal-padding: 0.75rem;
+  --ag-range-selection-border-color: var(--cui-primary, #321fdb);
+  --ag-range-selection-background-color: rgba(50, 31, 219, 0.1);
+
+  /* Font settings */
+  --ag-font-family: var(--cui-font-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif);
+  --ag-font-size: var(--cui-body-font-size, 1rem);
+
+  /* Selection colors */
+  --ag-selected-row-background-color: rgba(50, 31, 219, 0.1);
+
+  /* Borders and spacing */
+  --ag-borders: solid 1px;
+  --ag-border-radius: var(--cui-border-radius, 0.25rem);
+  --ag-cell-horizontal-border: solid var(--cui-border-color, #d8dbe0);
+  --ag-row-border-style: solid;
+  --ag-row-border-width: 1px;
+
+  /* Control and input styling */
+  --ag-input-border-color: var(--cui-border-color, #d8dbe0);
+  --ag-input-focus-border-color: var(--cui-primary, #321fdb);
+  --ag-checkbox-checked-color: var(--cui-primary, #321fdb);
+  --ag-checkbox-unchecked-color: var(--cui-secondary, #9da5b1);
+
+  /* Disabled state */
+  --ag-disabled-foreground-color: var(--cui-gray-600, #768192);
+  --ag-input-disabled-background-color: var(--cui-light, #ebedef);
+
+  /* Menu and popup styling */
+  --ag-popup-shadow: 0 0.5rem 1rem rgba(0, 0, 21, 0.15);
+  --ag-menu-background-color: var(--cui-white, #fff);
+  --ag-menu-option-active-color: var(--cui-primary-hover, #2819ae);
+}
+
+/* Additional styling for CoreUI integration */
+.ag-theme-coreui .ag-header {
+  font-weight: 500;
+}
+
+.ag-theme-coreui .ag-header-cell-menu-button:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Style buttons inside grid to match CoreUI buttons */
+.ag-theme-coreui .ag-standard-button {
+  border-radius: var(--cui-border-radius, 0.25rem);
+  background-color: var(--cui-primary, #321fdb);
+  color: var(--cui-white, #fff);
+  border: none;
+  padding: 0.375rem 0.75rem;
+}
+
+.ag-theme-coreui .ag-standard-button:hover {
+  background-color: var(--cui-primary-hover, #2819ae);
+}
